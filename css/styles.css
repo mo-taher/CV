@@ -1,0 +1,217 @@
+body{
+    margin:0;
+    background-color: #FFF8EA;
+    text-align: center;
+    color: #D8D9CF;
+    font-size: 1.2em;
+    
+}   
+h1{
+    /* margin: 50px auto 20px auto; */
+    font-size: 5rem; /* 5em = (5x16)px; rem = root em */ 
+    font-family: 'Silkscreen', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+
+.contactText{
+    padding-bottom: 10px;
+}
+
+.topContainer{   
+    background-color: #003865;
+    position:inline;
+    padding-top: 100px;
+}
+
+.mountain{
+    width:800px;
+    height: 500px ;
+    align-items: center;
+    padding-bottom: 0px; 
+}
+
+.rightCloud{
+    position:absolute;
+    right: 50px;
+    top:0px;
+    
+}
+.leftCloud{
+    position:absolute;
+    left: 50px;
+    bottom:200px;
+    
+}
+
+.mountainAlign{
+    position: absolute;
+}
+
+.middleContainer{
+    background-color: #3C2317;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+.middleContainer2{
+    background-color: #372948;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+.cards{
+    display: inline-block;
+    width: 35%;
+    background-color: #251B37;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 50px;
+    margin: 50px;
+    
+}
+
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.cards p{
+    margin: 20px;
+    padding: 10px;
+}
+.cards img{
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px ;
+    width: 100%;
+}
+.cards a{
+    width: 100%;
+}
+.moreButton{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.profilePic{
+    height: 250px;
+    width: 250px;
+    padding-top: 30px;
+   
+}
+.bio{
+    position: initial;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.skillRow{
+    position: initial;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.bottomContainer{
+    padding: 50px;
+    background-color: #251B37;
+    line-height: 1.5;
+    position: inline;
+}
+
+.git{
+    margin: auto 50px auto 50px;
+}
+.teachingPic{
+    float:left;
+    padding-top: 20px;
+    height: 250px;
+    width: 250px;
+    margin-right: 50px;
+}
+.codingPic{
+    float:right;
+    padding-top: 10px;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+}
+.lanPres{
+    float:left;
+    padding-top: 20px;
+    height: 250px;
+    width: 250px;
+    margin-right: 50px;
+}
+
+a{
+   color: aliceblue;
+}
+
+
+hr{
+    background-color: auto;
+    opacity: 0.4;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: aliceblue;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
+    margin-bottom: 100px;
+}
+.btn {
+    padding: 100px;
+    background: #d9ad34;
+    background-image: -webkit-linear-gradient(top, #d9ad34, #2980b9);
+    background-image: -moz-linear-gradient(top, #d9ad34, #2980b9);
+    background-image: -ms-linear-gradient(top, #d9ad34, #2980b9);
+    background-image: -o-linear-gradient(top, #d9ad34, #2980b9);
+    background-image: linear-gradient(to bottom, #d9ad34, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  .contactMeBody{
+    background-color: #003865;
+    color: aliceblue;
+  }
+
+  .contactForm{
+    padding-bottom: 30px;
+  }
+  
+  .contactDetailList{ 
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
