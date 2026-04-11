@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Taher Abdullah — IT Professional & Business Analyst</title>
+  <meta name="description" content="Mohammed Taher Abdullah — IT graduate, business analyst, and technology professional based in Adelaide, South Australia. Portfolio showcasing enterprise systems, data analytics, and project delivery work." />
+  <meta name="author" content="Mohammed Taher Abdullah" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohammed Taher Abdullah — Portfolio" />
+  <meta property="og:description" content="IT Professional & Business Analyst based in Adelaide, SA" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mo-taher.github.io/CV/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================
+       NAVIGATION
+       Fixed top nav with blur backdrop,
+       hamburger menu on mobile
+       ======================================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Home">
+        m<span class="logo-dot">.</span>taher
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Mobile hamburger button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ========================================
+       HERO SECTION
+       Full viewport intro with animated
+       gradient orb and staggered text reveal
+       ======================================== -->
+  <header class="hero" id="hero">
+    <!-- Decorative gradient orb -->
+    <div class="hero-orb" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb--secondary" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow reveal" data-delay="0">IT Graduate &bull; Business Analyst &bull; Adelaide, SA</p>
+        <h1 class="hero-title reveal" data-delay="1">
+          I'm <span class="text-accent">Mohammed</span><br/>Taher Abdullah
+        </h1>
+        <p class="hero-desc reveal" data-delay="2">
+          I work at the point where business problems meet technology. Whether it's running UAT across sixty-odd products, standing up Agile in a team that had nothing, or leading a capstone build for a real logistics client — I care about getting the process right around the technology, not just the technology itself.
+        </p>
+        <div class="hero-actions reveal" data-delay="3">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- Scrolling metric ribbon -->
+      <div class="hero-metrics reveal" data-delay="4">
+        <div class="metric">
+          <span class="metric-value">15%</span>
+          <span class="metric-label">CRM efficiency gain</span>
+        </div>
+        <div class="metric-divider" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-value">33%</span>
+          <span class="metric-label">Faster resolution</span>
+        </div>
+        <div class="metric-divider" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-value">58%</span>
+          <span class="metric-label">Ops efficiency lift</span>
+        </div>
+        <div class="metric-divider" aria-hidden="true"></div>
+        <div class="metric">
+          <span class="metric-value">62</span>
+          <span class="metric-label">Products tested</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator reveal" data-delay="5" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+
+  <!-- ========================================
+       ABOUT SECTION
+       Bento grid layout with bio text
+       and quick-glance info cards
+       ======================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="bento-grid bento-about">
+        <!-- Main bio card — spans 2 columns -->
+        <div class="bento-card bento-card--wide reveal">
+          <p>I have spent the last three years working at the overlap of business analysis and technology delivery. My first proper role was at a FinTech company where I ran the support ticket queue in Dynamics 365 and managed UAT across dozens of products. After that I stepped into an Operations Manager role where I had to build project management processes from nothing — Agile ceremonies, sprint boards, automated dashboards, the whole thing.</p>
+          <p>Right now I am finishing my Master of IT at The University of Adelaide, and my capstone has me leading a team building a logistics automation system for a real Australian client. The stack is React.js, Node.js, MongoDB, and OAuth 2.0.</p>
+        </div>
+
+        <!-- Location card -->
+        <div class="bento-card bento-card--accent reveal">
+          <span class="bento-icon">&#x1F4CD;</span>
+          <h3>Based in</h3>
+          <p class="bento-big">Adelaide, SA</p>
+          <p class="bento-sub">South Australia</p>
+        </div>
+
+        <!-- Languages card -->
+        <div class="bento-card reveal">
+          <span class="bento-icon">&#x1F30F;</span>
+          <h3>Languages</h3>
+          <div class="lang-list">
+            <span class="lang-tag">English</span>
+            <span class="lang-tag">Bangla</span>
+            <span class="lang-tag">Hindi</span>
+            <span class="lang-tag">Urdu</span>
+          </div>
+        </div>
+
+        <!-- Current focus card -->
+        <div class="bento-card reveal">
+          <span class="bento-icon">&#x1F393;</span>
+          <h3>Currently</h3>
+          <p class="bento-big">Master of IT</p>
+          <p class="bento-sub">Enterprise Management — The University of Adelaide</p>
+        </div>
+
+        <!-- Interests card -->
+        <div class="bento-card reveal">
+          <span class="bento-icon">&#x26A1;</span>
+          <h3>Interested in</h3>
+          <p>Digital transformation, cloud infrastructure, data analytics, and building technology that actually helps the communities it serves.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       EXPERIENCE SECTION
+       Timeline layout with expandable cards
+       ======================================== -->
+  <section id="experience" class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="exp-timeline">
+        <!-- Operations Manager -->
+        <div class="exp-card reveal">
+          <div class="exp-date">Oct 2023 — Jul 2024</div>
+          <div class="exp-content">
+            <h3 class="exp-role">Operations Manager</h3>
+            <p class="exp-company">Impact Academy Pvt. Ltd</p>
+            <ul class="exp-list">
+              <li>Took over a company with zero project structure and stood up Agile/Scrum from the ground — sprint cycles, Trello boards, Notion dashboards — lifting overall efficiency by 58%</li>
+              <li>Hit a 43% jump in sales target attainment after building milestone checkpoints and automated performance tracking that gave leadership their first real-time view of delivery progress</li>
+              <li>Cut reporting overhead by roughly 40% with automated Gantt chart exports, giving the team hours back each week for actual delivery work</li>
+              <li>Ran stand-ups and retros across three parallel workstreams, keeping dependencies visible and risks escalated before they turned into blockers</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Agile/Scrum</span>
+              <span>Digital Transformation</span>
+              <span>Process Automation</span>
+              <span>Trello</span>
+              <span>Notion</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Business Analyst -->
+        <div class="exp-card reveal">
+          <div class="exp-date">Jul 2023 — Oct 2023</div>
+          <div class="exp-content">
+            <h3 class="exp-role">Business Analyst — Information Technology</h3>
+            <p class="exp-company">Spring Rain Pvt. Ltd</p>
+            <ul class="exp-list">
+              <li>Owned the full ticket queue in Microsoft Dynamics 365 — intake, triage, prioritisation, assignment — and drove a 15% improvement in CRM operational efficiency</li>
+              <li>Ran UAT across 62 white-label products, wrote test cases, tracked defects, and cut complaint resolution time by 33%</li>
+              <li>Pushed customer satisfaction up 11% by putting proper issue-tracking docs in place and getting both the support and dev teams onto the same defect dashboard</li>
+              <li>Led requirements gathering sessions and turned stakeholder conversations into PRDs, wireframes, and functional specs developers could actually build against</li>
+              <li>Coordinated sprint planning with a global analytics team, tracked velocity in Jira, and delivered fortnightly reports to senior management</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Dynamics 365</span>
+              <span>UAT</span>
+              <span>Jira</span>
+              <span>Requirements Gathering</span>
+              <span>Data Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       SKILLS SECTION
+       Bento grid of skill categories
+       ======================================== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03</span>
+        <h2 class="section-title">Skills & Tools</h2>
+      </div>
+
+      <div class="bento-grid bento-skills">
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x1F4CA;</span>
+            <h3>Business Analysis</h3>
+          </div>
+          <div class="skill-pills">
+            <span>Requirements Gathering</span><span>Process Mapping</span><span>UAT</span>
+            <span>User Stories</span><span>Functional Specs</span><span>Wireframing</span><span>UML</span>
+          </div>
+        </div>
+
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x2699;&#xFE0F;</span>
+            <h3>Project Management</h3>
+          </div>
+          <div class="skill-pills">
+            <span>Agile/Scrum</span><span>Sprint Planning</span><span>Risk Registers</span>
+            <span>Jira</span><span>Confluence</span><span>Trello</span><span>Notion</span>
+          </div>
+        </div>
+
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x1F4BB;</span>
+            <h3>Development</h3>
+          </div>
+          <div class="skill-pills">
+            <span>Python</span><span>JavaScript</span><span>Java</span><span>React.js</span>
+            <span>Node.js</span><span>REST APIs</span><span>SQL</span><span>MongoDB</span><span>Git</span>
+          </div>
+        </div>
+
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x1F4C8;</span>
+            <h3>Data & Analytics</h3>
+          </div>
+          <div class="skill-pills">
+            <span>Power BI</span><span>Tableau</span><span>SQL</span>
+            <span>Data Visualisation</span><span>Performance Reporting</span>
+          </div>
+        </div>
+
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x2601;&#xFE0F;</span>
+            <h3>Cloud & Security</h3>
+          </div>
+          <div class="skill-pills">
+            <span>OAuth 2.0</span><span>Access Control</span>
+            <span>Cloud Deployment</span><span>Secure Design</span>
+          </div>
+        </div>
+
+        <div class="bento-card skill-card reveal">
+          <div class="skill-header">
+            <span class="skill-icon">&#x1F91D;</span>
+            <h3>Enterprise Platforms</h3>
+          </div>
+          <div class="skill-pills">
+            <span>Dynamics 365</span><span>Zoho CRM</span><span>Microsoft 365</span>
+            <span>Lucidchart</span><span>Miro</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       PROJECTS SECTION
+       Case-study style cards with context,
+       tech stack, and links
+       ======================================== -->
+  <section id="projects" class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- CAPSTONE — featured full width -->
+        <div class="project-card project-card--featured reveal">
+          <div class="project-visual project-visual--gradient">
+            <span class="project-emoji">&#x1F69A;</span>
+            <span class="project-status">In Progress — Capstone</span>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React.js</span><span>Node.js</span><span>MongoDB</span><span>OAuth 2.0</span><span>AI/ML</span>
+            </div>
+            <h3>AI-Powered Logistics Automation</h3>
+            <p>Leading a five-person team building a cloud-hosted automated booking system for Fridge It Logistics, an Australian 3PL provider. The system validates purchase orders against warehouse management data, runs GPS-based driver compliance checks, and uses AI for anomaly detection — targeting a 60% reduction in manual verification effort.</p>
+            <p class="project-role"><strong>My role:</strong> Project lead — sprint planning, risk register, stakeholder demos, scope negotiation. I ran the feasibility assessment that narrowed us from three workstreams to one focused MVP.</p>
+          </div>
+        </div>
+
+        <!-- Ecash Crypto -->
+        <div class="project-card reveal">
+          <img class="project-thumb" src="https://user-images.githubusercontent.com/68026627/194737158-86ba6215-98d9-4f9d-b760-1634bbbc241b.png" alt="Ecash Crypto Transaction System screenshot" loading="lazy" />
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React</span><span>Solidity</span><span>Tailwind</span><span>Blockchain</span>
+            </div>
+            <h3>Ecash — Crypto Transaction System</h3>
+            <p>Smart contract-based Ethereum transaction app. Built with React and TailwindCSS, uses MetaMask as the crypto wallet for sending and receiving ETH on the blockchain.</p>
+            <a href="https://github.com/mo-taher/Ecash_Crypto_Transaction_System" class="project-link" target="_blank" rel="noopener">
+              View on GitHub <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Lane Detection -->
+        <div class="project-card reveal">
+          <img class="project-thumb" src="https://user-images.githubusercontent.com/68026627/194719534-b03c3e71-a244-4be1-890a-c441e4993a64.png" alt="Lane Detection system output" loading="lazy" />
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>OpenCV</span><span>Computer Vision</span>
+            </div>
+            <h3>Real-Time Lane Detection</h3>
+            <p>Lane detection system using Canny edge detection and Hough Transforms. Handles variable lighting conditions for practical road safety applications.</p>
+            <a href="https://github.com/mo-taher/Lane-Detection-Using-Image-Processing" class="project-link" target="_blank" rel="noopener">
+              View on GitHub <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blockchain Certificate -->
+        <div class="project-card reveal">
+          <div class="project-visual project-visual--dark">
+            <span class="project-emoji">&#x1F517;</span>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Blockchain</span><span>Security</span><span>Healthcare</span>
+            </div>
+            <h3>Blockchain Certificate Sharing</h3>
+            <p>Secure, auditable blockchain architecture for tamper-proof certificate traceability and access control across distributed healthcare environments.</p>
+          </div>
+        </div>
+
+        <!-- Mechanic Appointment -->
+        <div class="project-card reveal">
+          <img class="project-thumb" src="https://user-images.githubusercontent.com/68026627/194719126-70eded30-e708-4344-be4e-296af48be45c.png" alt="Online Mechanic Appointment system" loading="lazy" />
+          <div class="project-info">
+            <div class="project-tags">
+              <span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>Apache</span>
+            </div>
+            <h3>Online Mechanic Appointment</h3>
+            <p>Full-stack appointment booking system built for a university database systems course. Covers user auth, booking management, and admin dashboards.</p>
+            <a href="https://github.com/mo-taher/Online-Mechanic-Appointment-System" class="project-link" target="_blank" rel="noopener">
+              View on GitHub <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Computer Network -->
+        <div class="project-card reveal">
+          <img class="project-thumb" src="https://github.com/mo-taher/Computer-Network-Project/blob/main/Project/Group55_Topology.png?raw=true" alt="Network topology diagram" loading="lazy" />
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Cisco</span><span>Networking</span><span>Packet Tracer</span>
+            </div>
+            <h3>Computer Network Design</h3>
+            <p>Network topology design and configuration using Cisco Packet Tracer — routing, switching, subnetting, and VLAN setup for a university networking course.</p>
+            <a href="https://github.com/mo-taher/Computer-Network-Project" class="project-link" target="_blank" rel="noopener">
+              View on GitHub <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       EDUCATION SECTION
+       ======================================== -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-stack">
+        <div class="edu-card reveal">
+          <div class="edu-left">
+            <span class="edu-date">2024 — Present</span>
+          </div>
+          <div class="edu-right">
+            <h3>Master of Information Technology (Enterprise Management)</h3>
+            <p class="edu-school">The University of Adelaide — Adelaide, SA</p>
+            <p class="edu-courses">Business Process Management &bull; Stakeholder Engagement &bull; Global Business Analysis &bull; International Trade &bull; ICT Capstone Project</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-left">
+            <span class="edu-date">2019 — 2023</span>
+          </div>
+          <div class="edu-right">
+            <h3>Bachelor of Science in Computer Science & Engineering</h3>
+            <p class="edu-school">BRAC University — Dhaka, Bangladesh</p>
+            <p class="edu-courses">Software Engineering &bull; Data Structures &bull; Computer Networks &bull; Database Systems &bull; Image Processing &bull; Blockchain</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       CONTACT SECTION
+       ======================================== -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">06</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-left reveal">
+          <p class="contact-intro">I am always open to conversations about technology, graduate opportunities, or anything in between. Drop me a message or connect on LinkedIn.</p>
+
+          <div class="contact-items">
+            <a href="mailto:moh.taher.mail@gmail.com" class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+              <span>moh.taher.mail@gmail.com</span>
+            </a>
+            <a href="tel:+61416753180" class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+              <span>+61 416 753 180</span>
+            </a>
+            <div class="contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+              <span>Adelaide, South Australia</span>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/m-taher-abdullah" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://github.com/mo-taher" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <div class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your name" aria-label="Your name" />
+            <input type="email" placeholder="Your email" aria-label="Your email" />
+            <textarea placeholder="Your message" aria-label="Your message"></textarea>
+            <button type="button" id="formSubmit">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Mohammed Taher Abdullah</p>
+      <p>Built with care in Adelaide, South Australia</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
