@@ -1,0 +1,52 @@
+// Your work history, newest first. Add a new object at the top for a new role.
+export const experience = [
+  {
+    file: '01',
+    role: 'IT & Business Systems Analyst',
+    company: 'Fridge It Logistics SA',
+    place: 'South Australia, Hybrid',
+    dates: 'Feb 2026 to Aug 2026',
+    stamp: 'Filed 2026',
+    points: [
+      'Main link between the developer and business stakeholders with sign-off authority, turning business needs into clear requirements and acceptance criteria.',
+      'Mapped current operational and compliance workflows across booking, transport management and telematics systems to find manual handling points, data gaps and chances to automate.',
+      'Led the feasibility analysis for a driver-hours automation project, flagged data and integration risks before build, and recommended a phased rollout.',
+      'Designed and ran a structured UAT plan for a React, Node.js and MongoDB booking platform, tracking defects through to sign-off.',
+      'Set up automated reports in a fleet telematics platform to replace manual compliance and dwell-time reporting.',
+      'Wrote plain-language user and admin guides, and supported HACCP compliance analysis across delivery operations.',
+    ],
+    tags: ['Requirements', 'Process Mapping', 'UAT', 'Feasibility', 'Telematics', 'Jira', 'Notion'],
+  },
+  {
+    file: '02',
+    role: 'Operations Manager',
+    company: 'Impact Academy Pvt. Ltd',
+    place: 'EdTech',
+    dates: 'Oct 2023 to Jul 2024',
+    stamp: 'Filed 2024',
+    points: [
+      'Mapped how work moved across product, marketing and delivery, cut duplicate handoffs and wrote SOPs for a 12-person team, lifting delivery efficiency by 58%.',
+      'Monitored digital marketing for the academy’s education products, reviewing campaign and lead numbers each week to guide where sales focused.',
+      'Built Excel tracking models with clear ownership and milestone reviews, lifting sales target attainment by 43%.',
+      'Set up Agile delivery from scratch in Trello and Notion, cutting average project cycle time by around 30%.',
+      'Kept a RAID log and ran cross-functional meetings across four live projects, pushing back on scope creep early.',
+    ],
+    tags: ['Agile', 'Operations', 'Digital Marketing', 'Excel', 'Notion', 'Trello'],
+  },
+  {
+    file: '03',
+    role: 'Business Analyst',
+    company: 'Spring Rain Pvt. Ltd',
+    place: 'FinTech',
+    dates: 'Jul 2023 to Oct 2023',
+    stamp: 'Filed 2023',
+    points: [
+      'Redesigned the support ticket workflow in Microsoft Dynamics 365 for a queue of 200+ tickets a month, improving CRM efficiency by 15%.',
+      'Ran structured UAT across 62 white-label products with a defect register that shaped development priorities, cutting complaint resolution time by 33%.',
+      'Lifted customer satisfaction by 11% with standard test documentation and defect reviews across five teams.',
+      'Turned stakeholder interviews and workshops into BRDs, functional specs, wireframes, user stories and acceptance criteria.',
+      'Presented fortnightly sprint updates to senior management for a distributed analytics team.',
+    ],
+    tags: ['Dynamics 365', 'UAT', 'Requirements', 'Jira', 'Stakeholders'],
+  },
+]

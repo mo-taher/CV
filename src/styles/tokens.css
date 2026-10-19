@@ -1,0 +1,38 @@
+:root {
+  /* Palette: Cinematic Noir */
+  --noir: #0a0a0a;
+  --noir-2: #111110;
+  --noir-3: #1a1918;
+  --bone: #e8e1cf;
+  --bone-dim: #a9a294;
+  --bone-faint: #5e5a52;
+  --amber: #e6a23c;
+  --amber-hot: #f6c977;
+  --oxblood: #7a1e1e;
+  --oxblood-bright: #a83232;
+  --line: rgba(232, 225, 207, 0.14);
+  --line-strong: rgba(232, 225, 207, 0.32);
+
+  /* Type */
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --fs-mega: clamp(4.5rem, 17vw, 19rem);
+  --fs-huge: clamp(3.2rem, 10vw, 10rem);
+  --fs-xl: clamp(2.4rem, 5.6vw, 5.4rem);
+  --fs-lg: clamp(1.7rem, 3.2vw, 3rem);
+  --fs-md: clamp(1.15rem, 1.5vw, 1.4rem);
+  --fs-body: clamp(1rem, 1.05vw, 1.1rem);
+  --fs-sm: 0.875rem;
+  --fs-xs: 0.72rem;
+
+  /* Space */
+  --gutter: clamp(1rem, 4vw, 4rem);
+  --section-pad: clamp(6rem, 14vh, 12rem);
+  --max: 1440px;
+
+  /* Motion */
+  --ease-cine: cubic-bezier(0.7, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
